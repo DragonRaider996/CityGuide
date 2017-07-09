@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/homeGroup" android:checkableBehavior="single">
+    <item android:id="@+id/home"
+        android:title="Home" />
+    </group>
+
+    <group android:id="@+id/favGroup">
+    <item android:id="@+id/favourites"
+        android:title="Favourites" />
+    </group>
+
+    <group android:id="@+id/aboutGroup" android:checkableBehavior="single">
+    <item android:id="@+id/aboutus"
+        android:title="About Us" />
+    </group>
+
+    <group android:id="@+id/logoutGroup" android:checkableBehavior="single">
+    <item android:id="@+id/logout"
+        android:title="Logout" />
+    </group>
+
+    <group android:id="@+id/exitGroup" android:checkableBehavior="single">
+    <item android:id="@+id/exit"
+        android:title="Exit" />
+    </group>
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.p.cityguide">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logomain"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity
+            android:name=".SignUp"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.p.cityguide.Login" />
+        </activity>
+        <activity
+            android:name=".BusinessDetail"
+            android:parentActivityName=".BusinessList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.p.cityguide.BusinessList" />
+        </activity>
+        <activity
+            android:name=".Homepage"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".VerifyMail"
+            android:parentActivityName=".SignUp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.p.cityguide.SignUp" />
+        </activity>
+        <activity android:name=".BusinessList"
+            android:parentActivityName=".Homepage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.p.cityguide.Homepage" />>
+
+        </activity>
+    </application>
+
+</manifest>

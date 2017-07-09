@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CityGuide</string>
+    <string name="signup"><u>Sign Up</u></string>
+    <string name="email">Email Id</string>
+    <string name="pass">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="noaccount">"Don't have an account?"</string>
+    <string name="loading">Loading</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+
+    <string-array name="business">
+        <item>Restaurants</item>
+        <item>Hospital</item>
+        <item>Professionals</item>
+        <item>Travel</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Chinese , Pizza , Punjabi , Italaian</item>
+        <item>Dentist , Doctor , Nurse , Warden</item>
+        <item>CA , Doctor , Teacher , Plumber</item>
+        <item>Tourism , Vadodara , Ahemdabad , GetLost</item>
+    </string-array>
+
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+
+</resources>
